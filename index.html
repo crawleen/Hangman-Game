@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Javascript Hangman in Hell</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Coustard|Creepster|Shadows+Into+Light+Two&effect=fire-animation">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"> 
+</head>
+<body>
+    <h1 class="font-effect-fire-animation" id="title">Javascript Hangman in Hell!!</h1>
+    <div id="winLoseDiv">
+    </div>
+    <div id="mainConsole">
+        <h1 id="instructions">Press any key to get started!</h1>
+        <ul>
+            <li>
+                Total Wins:
+                <h3 class="font-effect-fire-animation"><span id="wins"></span></h3>
+            </li>
+
+            <li>
+                # of Guesses Remaining:
+                <h3 class="font-effect-fire-animation"><span id="guesses-left"></span></h3>
+            </li>
+            <li>
+                Letters Already Guessed:
+                <h3 class="font-effect-fire-animation"><span id="letters-guessed"></span></h3>
+            </li>
+            <li>
+                Current Word:
+                <br>
+                <h3 class="font-effect-fire-animation"><span id="word-guess"></span></h3>
+                <br>
+            </li>
+        </ul>
+    </div>
+    <audio controls autoplay>
+        <source src="https://actions.google.com/sounds/v1/science_fiction/high_to_low_sweep.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
+</html>

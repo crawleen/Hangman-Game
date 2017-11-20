@@ -1,0 +1,58 @@
+body{
+    background-image: url("../images/hell_background.jpg");  
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#mainConsole{
+    width:50%;
+    margin:auto;
+    background-color: #FF3F3E;
+}
+
+h1{
+    text-align: center; 
+}
+
+#title{
+    color:black;
+    font-size: 100px;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Coustard', serif;
+    font-family: 'Creepster', cursive;
+    background-color: #FF3F3E;
+}
+#instructions{
+    font-size:30px;
+    background-color: black;
+    font-family: 'Shadows Into Light Two', cursive;
+    color:#fff;
+    text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
+}
+
+h3 {
+    padding: 0%;
+    font-size: 60px;
+    background-color: #FF3F3E;
+    font-family: serif;
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 15%;
+    margin-top: 10%;
+    word-break: break-all;
+}
+
+li {
+    background-color: #FF3F3E;
+    list-style: none;
+    text-align: center;
+    border: 0px solid black;
+    color: black;
+    font-size:40px;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+audio{
+    display: none;
+}
+
